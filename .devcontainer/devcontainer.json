@@ -1,0 +1,15 @@
+{
+  "name": "Wordpress Development Environment",
+  "dockerComposeFile": "docker-compose.yml",
+  "workspaceFolder": "/workspace",
+  "service": "wordpress",
+
+  // add extensions useful for php and wordpress
+  "extensions": ["felixfbecker.php-debug", "felixfbecker.php-intellisense"],
+
+  "settings": {
+    "editor.formatOnSave": true
+  },
+
+  "postCreateCommand": "bash .devcontainer/wp-setup.sh"
+}
