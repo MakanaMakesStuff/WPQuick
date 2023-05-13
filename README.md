@@ -1,4 +1,4 @@
-# WPQuick | WordPress Plugin Development Environment
+# WPQuick | Plugin Development Environment
 
 ## Description
 
