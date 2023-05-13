@@ -17,3 +17,5 @@ WPQuick is a WordPress plugin dev environment that just makes it easier to get s
 5. If everything went well, you should be able to go to ```http://localhost:8080``` and see the WordPress installation screen.
 
 6. Follow the WordPress installation instructions and you should be good to go.
+
+### NOTE: plugins are not automatically activated upon installation. Please navigate to http://localhost:8080/wp-admin/plugins.php to activate any plugins as usual.
