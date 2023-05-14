@@ -12,7 +12,7 @@ WPQuick is a WordPress plugin dev environment that just makes it easier to get s
 
 3. Click 'Reopen in Container' in the bottom right corner of VSCode.
 
-4. In your terminal you should see a message that says 'WPQiick' and 'press any key to exit this terminal...'.
+4. In your terminal you should see a message that says 'WPQuick' and 'press any key to exit this terminal...'.
 
 5. If everything went well, you should be able to go to ```http://localhost:8080``` and see the WordPress installation screen.
 
