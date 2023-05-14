@@ -16,7 +16,7 @@ namespace Loader\Types;
 
 use Loader\Classes\Base;
 
-class Item extends Base
+class Hello extends Base
 {
 	public $priority = 1;
 	
@@ -27,9 +27,9 @@ class Item extends Base
 
 	public function registerTypes()
 	{
-		$id = "item";
-		$singular = "Item";
-		$plural = "Item";
+		$id = "hello";
+		$singular = "Hello";
+		$plural = "Hello";
 		$supports = ['title', 'author', 'editor'];
 
 		$options = [

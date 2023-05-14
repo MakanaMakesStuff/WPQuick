@@ -2,8 +2,11 @@
 
 echo "Copying plugins..."
 
-# copy using absolute path
-cp -r .devcontainer/data/plugins/* wordpress/
+# remove default wordpress plugins
+rm -rf ./plugins/*
+
+# copy all our plugins from the data/plugins folder into the new plugins folder within our workspace
+cp -r .devcontainer/data/plugins/* ./plugins
 
 echo "
 __      __ ___   ___         _      _   

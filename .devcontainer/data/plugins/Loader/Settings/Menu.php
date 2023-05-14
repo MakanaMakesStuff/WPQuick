@@ -26,6 +26,6 @@ class Menu extends Base
 	function addMenu()
 	{
 		add_menu_page(__('Loader'), __('Loader'), 'manage_options', 'loader-menu-page', 'loader_page', '', 0);
-		add_submenu_page('loader-menu-page', __('Item'), __('Item'), 'manage_options', 'edit.php?post_type=item', '', 0);
+		add_submenu_page('loader-menu-page', __('Hello'), __('Hello'), 'manage_options', 'edit.php?post_type=hello', '', 0);
 	}
 }

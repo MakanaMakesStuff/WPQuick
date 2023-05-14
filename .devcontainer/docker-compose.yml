@@ -13,7 +13,7 @@ services:
       WORDPRESS_DB_PASSWORD: examplepass
       WORDPRESS_DB_NAME: exampledb
     volumes:
-      - ../wordpress:/var/www/html/wp-content/plugins
+      - ../plugins:/var/www/html/wp-content/plugins
       - ..:/workspace:cached
 
   db:
